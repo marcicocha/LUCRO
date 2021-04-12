@@ -1,0 +1,105 @@
+.feature {
+  &__section {
+    @include breakpoint-down(medium) {
+      padding: 1.25rem 0;
+    }
+    @include breakpoint-up(large) {
+      padding: 3rem 0;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .feat1 {
+    .img {
+      &__container {
+        order: 2;
+        @include breakpoint-up(large) {
+          width: 45%;
+        }
+      }
+    }
+    .text {
+      &__container {
+        order: 1;
+        @include breakpoint-down(medium) {
+          margin-top: 2rem;
+        }
+        @include breakpoint-up(large) {
+          width: 40%;
+        }
+      }
+    }
+  }
+  .feat2 {
+    .img {
+      &__container {
+        order: 2;
+        @include breakpoint-up(large) {
+          width: 47%;
+        }
+      }
+    }
+    .text {
+      &__container {
+        order: 1;
+        @include breakpoint-down(medium) {
+          margin-top: 2rem;
+        }
+        @include breakpoint-up(large) {
+          width: 45%;
+          position: relative;
+          padding-left: 7.5rem;
+          &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 6rem;
+            height: 6rem;
+            background-image: url("../../../assets/images/send.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        h3 {
+          @include breakpoint-down(medium) {
+            position: relative;
+            padding-left: 3.2rem;
+            &::before {
+              content: "";
+              position: absolute;
+              top: -10px;
+              left: 0;
+              width: 2.5rem;
+              height: 2.5rem;
+              background-image: url("../../../assets/images/send.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+            }
+          }
+        }
+      }
+    }
+  }
+  .feat3 {
+    .img {
+      &__container {
+        @include breakpoint-up(large) {
+          width: 47%;
+        }
+      }
+    }
+    .text {
+      &__container {
+        @include breakpoint-down(medium) {
+          margin-top: 2rem;
+        }
+        @include breakpoint-up(large) {
+          width: 50%;
+          padding-right: 4rem;
+          padding-left: 3rem;
+        }
+      }
+    }
+  }
+}

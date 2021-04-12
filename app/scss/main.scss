@@ -1,2 +1,13 @@
-@import "variables";
-@import "globals";
+@import "base/font";
+@import "base/variables";
+@import "base/mixins";
+@import "base/globals";
+
+//elements
+@import "elements/header";
+@import "elements/button";
+@import "elements/intro";
+@import "elements/feature";
+@import "elements/accordion";
+@import "elements/footer";
+@import "elements/download";

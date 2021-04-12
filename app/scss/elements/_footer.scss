@@ -1,0 +1,35 @@
+.footer {
+  &__image {
+    @include breakpoint-down(medium) {
+        text-align: center;
+    }
+    @include breakpoint-up(large) {
+      width: 45%;
+    }
+  }
+  &__text {
+    @include breakpoint-up(large) {
+      width: 55%;
+    }
+  }
+  &__container {
+    border-top: 1px solid rgba(194, 194, 194, 0.48);
+    padding-top: 1.2rem;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+    li {
+      margin: 0.8rem 0;
+    }
+  }
+  .konsult {
+    display: flex;
+    justify-content: center;
+  }
+  .bold {
+    font-family: $GraphikSemibold;
+  }
+}

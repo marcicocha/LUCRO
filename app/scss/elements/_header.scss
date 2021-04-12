@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+
+  nav {
+    position: relative;
+    z-index: 1;
+    @include breakpoint-down(medium) {
+      padding: 2.5rem 0;
+    }
+    @include breakpoint-up(large) {
+      padding: 1.875rem 0;
+    }
+  }
+  &__logo {
+    img {
+      width: 5.5rem;
+      height: 4rem;
+    }
+  }
+
+  &__links {
+    a {
+      &:not(:last-child) {
+        margin-right: 2.5rem;
+      }
+    }
+  }
+}
