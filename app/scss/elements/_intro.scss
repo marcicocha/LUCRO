@@ -5,7 +5,7 @@
   }
   &__description {
     color: $dark-grey;
-    font-family: $Graphik;
+    font-family: $GraphikLight;
     font-weight: 400;
     @include breakpoint-up(large) {
       margin: 0 4rem;
@@ -34,6 +34,10 @@
     &_container {
       div {
         // height: 15.625rem;
+        @include breakpoint-up(large) {
+          margin-top: -6rem;
+          z-index: -1;
+        }
         img {
           width: 100%;
           object-fit: contain;

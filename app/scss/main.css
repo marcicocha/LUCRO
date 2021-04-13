@@ -155,6 +155,7 @@ h1 {
 @media (min-width: 64em) {
   h1 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -244,6 +245,30 @@ p {
   }
 }
 
+.m-t {
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 64em) {
+  .m-t {
+    margin-top: 4rem;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp;
+          animation: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
 .header {
   width: 100%;
 }
@@ -261,7 +286,7 @@ p {
 
 @media (min-width: 64em) {
   .header nav {
-    padding: 1.875rem 0;
+    padding: 1rem 0;
   }
 }
 
@@ -343,7 +368,7 @@ p {
 
 .intro__description {
   color: #002213;
-  font-family: "Graphik", sans-serif;
+  font-family: "GraphikLight", sans-serif;
   font-weight: 400;
 }
 
@@ -379,6 +404,13 @@ p {
 @media (min-width: 64em) {
   .intro__button-container button:first-child {
     margin-right: 1.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .intro__image_container div {
+    margin-top: -6rem;
+    z-index: -1;
   }
 }
 
@@ -514,6 +546,12 @@ p {
   }
 }
 
+@media (max-width: 63.9375em) {
+  .feature .lucrow-image {
+    margin-top: -4rem;
+  }
+}
+
 .accordion {
   position: relative;
   color: #15051e;
@@ -639,8 +677,7 @@ p {
 @media (min-width: 64em) {
   .download {
     padding: 3.75rem 5.625rem;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin: 6rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

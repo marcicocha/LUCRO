@@ -90,6 +90,7 @@ h1 {
   }
   @include breakpoint-up(large) {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 h2 {
@@ -153,5 +154,11 @@ p {
         font-size: $font-regular;
       }
     }
+  }
+}
+.m-t {
+  margin-top: 2.5rem;
+  @include breakpoint-up(large) {
+    margin-top: 4rem;
   }
 }

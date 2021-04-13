@@ -102,4 +102,9 @@
       }
     }
   }
+  .lucrow-image {
+    @include breakpoint-down(medium) {
+      margin-top: -4rem;
+    }
+  }
 }
