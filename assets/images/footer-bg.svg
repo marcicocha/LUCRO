@@ -1,0 +1,19 @@
+<svg width="1440" height="331" viewBox="0 0 1440 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="43" cy="336" r="20" stroke="#72DDF7" stroke-width="2"/>
+<circle cx="43.5" cy="336.5" r="28.5" stroke="#72DDF7" stroke-width="2"/>
+<circle cx="43.5" cy="336.5" r="34.5" stroke="#72DDF7" stroke-width="2"/>
+<circle cx="42.5" cy="335.5" r="41.5" stroke="#72DDF7" stroke-width="2"/>
+<circle cx="43.5" cy="336.5" r="48.5" stroke="#72DDF7" stroke-width="2"/>
+<circle cx="564.5" cy="117.5" r="21.6042" stroke="#72DDF7" stroke-opacity="0.19" stroke-width="2"/>
+<circle cx="565.038" cy="118.038" r="30.7535" stroke="#72DDF7" stroke-opacity="0.19" stroke-width="2"/>
+<circle cx="565.038" cy="118.038" r="37.2118" stroke="#72DDF7" stroke-opacity="0.19" stroke-width="2"/>
+<circle cx="563.962" cy="116.962" r="44.7465" stroke="#72DDF7" stroke-opacity="0.19" stroke-width="2"/>
+<circle cx="565.038" cy="118.038" r="52.2812" stroke="#72DDF7" stroke-opacity="0.19" stroke-width="2"/>
+<circle cx="1471.09" cy="86.0938" r="34.0312" stroke="#F5AD2D" stroke-width="2"/>
+<circle cx="1471.09" cy="86.0938" r="41.1562" stroke="#F5AD2D" stroke-width="2"/>
+<circle cx="1469.91" cy="84.9062" r="49.4688" stroke="#F5AD2D" stroke-width="2"/>
+<circle cx="1471.09" cy="86.0938" r="57.7812" stroke="#F5AD2D" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43 408C82.7645 408 115 375.765 115 336C115 296.235 82.7645 264 43 264C3.2355 264 -29 296.235 -29 336C-29 375.765 3.2355 408 43 408ZM43.2087 397.983C77.3255 397.983 104.983 370.326 104.983 336.209C104.983 302.092 77.3255 274.435 43.2087 274.435C9.09189 274.435 -18.5652 302.092 -18.5652 336.209C-18.5652 370.326 9.09189 397.983 43.2087 397.983Z" fill="#DE6449"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M564.5 195C607.302 195 642 160.302 642 117.5C642 74.6979 607.302 40 564.5 40C521.698 40 487 74.6979 487 117.5C487 160.302 521.698 195 564.5 195ZM564.725 184.217C601.448 184.217 631.217 154.448 631.217 117.725C631.217 81.0017 601.448 51.2319 564.725 51.2319C528.002 51.2319 498.232 81.0017 498.232 117.725C498.232 154.448 528.002 184.217 564.725 184.217Z" fill="#DE6449" fill-opacity="0.15"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1476.5 171C1523.72 171 1562 132.72 1562 85.5C1562 38.2797 1523.72 0 1476.5 0C1429.28 0 1391 38.2797 1391 85.5C1391 132.72 1429.28 171 1476.5 171ZM1476.75 159.104C1517.26 159.104 1550.1 126.262 1550.1 85.7479C1550.1 45.2342 1517.26 12.3913 1476.75 12.3913C1436.23 12.3913 1403.39 45.2342 1403.39 85.7479C1403.39 126.262 1436.23 159.104 1476.75 159.104Z" fill="#009B72"/>
+</svg>

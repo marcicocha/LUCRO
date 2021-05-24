@@ -1,15 +1,17 @@
 .intro {
-  @include breakpoint-up(large) {
-    text-align: center;
-    padding: 0 17.5rem;
-  }
-  &__description {
-    color: $dark-grey;
-    font-family: $GraphikLight;
-    font-weight: 400;
+  &__content {
+    width: 100%;
+    margin-bottom: 3rem;
     @include breakpoint-up(large) {
-      margin: 0 4rem;
-      margin-bottom: 1.5rem;
+      width: 40%;
+    }
+    &__description {
+      color: $dark-grey;
+      font-family: $GraphikLight;
+      font-weight: 400;
+      @include breakpoint-up(large) {
+        margin-bottom: 1.5rem;
+      }
     }
   }
   &__button {
@@ -17,9 +19,6 @@
       display: flex;
       align-items: center;
       margin-top: 2rem;
-      @include breakpoint-up(large) {
-        justify-content: center;
-      }
       button {
         &:first-child {
           margin-right: 1rem;
@@ -30,19 +29,20 @@
       }
     }
   }
-  &__image {
-    &_container {
-      div {
-        // height: 15.625rem;
-        @include breakpoint-up(large) {
-          margin-top: -6rem;
-          z-index: -1;
-        }
-        img {
-          width: 100%;
-          object-fit: contain;
-          // height: 100%;
-        }
+  &__image_container {
+    width: 100%;
+    position: relative;
+    @include breakpoint-up(large) {
+      padding: 2rem;
+      width: 40%;
+    }
+    div {
+      background-image: url("/assets/images/intro-bg.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      img {
+        width: 100%;
+        object-fit: contain;
       }
     }
   }

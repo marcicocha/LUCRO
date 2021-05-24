@@ -1,4 +1,48 @@
 .feature {
+  &__heading {
+    margin-bottom: 3rem;
+    @include breakpoint-up(large) {
+      margin-bottom: 4rem;
+    }
+    h2 {
+      margin-bottom: 0.8rem;
+      text-align: center;
+    }
+    p {
+      margin: 0;
+      text-align: center;
+      line-height: 1.5rem;
+    }
+  }
+  &__content {
+    text-align: center;
+    .column-3 {
+      width: 100%;
+      margin-bottom: 2rem;
+      @include breakpoint-up(large) {
+        width: 30%;
+      }
+      div {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 100%;
+        margin: 0 auto;
+      }
+      .simple {
+        background: rgba(65, 211, 189, 0.13);
+      }
+      .secure {
+        background: rgba(222, 100, 73, 0.2);
+      }
+      .flexible {
+        background: rgba(246, 174, 45, 0.22);
+      }
+    }
+    h4 {
+      margin-top: 1.2rem;
+    }
+  }
   &__section {
     @include breakpoint-down(medium) {
       padding: 1.25rem 0;
@@ -6,75 +50,73 @@
     @include breakpoint-up(large) {
       padding: 3rem 0;
     }
-    img {
-      width: 100%;
-    }
-  }
-  .feat1 {
-    .img {
-      &__container {
-        order: 2;
-        @include breakpoint-up(large) {
-          width: 45%;
-        }
-      }
-    }
-    .text {
-      &__container {
-        order: 1;
-        @include breakpoint-down(medium) {
-          margin-top: 2rem;
-        }
-        @include breakpoint-up(large) {
-          width: 40%;
-        }
-      }
-    }
   }
   .feat2 {
-    .img {
-      &__container {
-        order: 2;
-        @include breakpoint-up(large) {
-          width: 47%;
+    .img__container {
+      position: relative;
+      @include breakpoint-up(large) {
+        width: 45%;
+      }
+      div {
+        background-image: url("/assets/images/circle-group.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 80%;
+        background-position: center;
+        img {
+          width: 100%;
+          height: 100%;
         }
       }
     }
-    .text {
-      &__container {
-        order: 1;
-        @include breakpoint-down(medium) {
-          margin-top: 2rem;
-        }
-        @include breakpoint-up(large) {
-          width: 45%;
+    .text__container {
+      @include breakpoint-up(large) {
+        width: 45%;
+        position: relative;
+      }
+      .ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
           position: relative;
-          padding-left: 7.5rem;
+          padding-left: 2.5rem;
+          font-family: $GraphikLight;
+          margin-bottom: 2rem;
+          @include breakpoint-up(large) {
+            padding-left: 3.5rem;
+            margin-bottom: 2.5rem;
+          }
           &::before {
             content: "";
             position: absolute;
             left: 0;
-            width: 6rem;
-            height: 6rem;
-            background-image: url("../../../assets/images/send.svg");
-            background-repeat: no-repeat;
-            background-size: contain;
+            top: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 7px;
+            @include breakpoint-up(large) {
+              width: 2rem;
+              height: 2rem;
+            }
           }
-        }
-        h3 {
-          @include breakpoint-down(medium) {
-            position: relative;
-            padding-left: 3.2rem;
+          &:nth-child(1) {
             &::before {
-              content: "";
-              position: absolute;
-              top: -10px;
-              left: 0;
-              width: 2.5rem;
-              height: 2.5rem;
-              background-image: url("../../../assets/images/send.svg");
-              background-repeat: no-repeat;
-              background-size: contain;
+              background: rgba(65, 211, 189, 1);
+            }
+          }
+          &:nth-child(2) {
+            &::before {
+              background: rgba(246, 174, 45, 1);
+            }
+          }
+          &:nth-child(3) {
+            &::before {
+              background: rgba(222, 100, 73, 1);
+            }
+          }
+          &:nth-child(4) {
+            &::before {
+              background: rgba(114, 221, 247, 1);
             }
           }
         }
@@ -84,8 +126,27 @@
   .feat3 {
     .img {
       &__container {
+        width: 100%;
+        height: 16rem;
+        border-radius: 7px;
+        background-color: rgba(0, 0, 0, 0.79);
+        background-blend-mode: color;
+        background-image: url("/assets/images/phone.png");
+        position: relative;
         @include breakpoint-up(large) {
-          width: 47%;
+          height: 28.5rem;
+        }
+        img {
+          width: 3rem;
+          height: 3rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          @include breakpoint-up(large) {
+            width: 4rem;
+            height: 4rem;
+          }
         }
       }
     }
@@ -100,11 +161,6 @@
           padding-left: 3rem;
         }
       }
-    }
-  }
-  .lucrow-image {
-    @include breakpoint-down(medium) {
-      margin-top: -4rem;
     }
   }
 }

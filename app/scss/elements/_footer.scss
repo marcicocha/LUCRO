@@ -1,35 +1,40 @@
 .footer {
-  &__image {
-    @include breakpoint-down(medium) {
-        text-align: center;
-    }
-    @include breakpoint-up(large) {
-      width: 45%;
-    }
+  background-color: rgba(17, 16, 16, 1);
+  background-image: url("/assets/images/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: $padding-mobile;
+  padding-top: 3rem !important;
+  padding-bottom: 1.5rem !important;
+  @include breakpoint-down(medium) {
+    background-position: bottom;
+    background-size: contain;
   }
-  &__text {
-    @include breakpoint-up(large) {
-      width: 55%;
-    }
-  }
-  &__container {
-    border-top: 1px solid rgba(194, 194, 194, 0.48);
-    padding-top: 1.2rem;
+  @include breakpoint-up(large) {
+    padding: $padding-web;
+    padding-top: 3rem !important;
   }
   ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
     margin-bottom: 2rem;
+    @include breakpoint-up(large) {
+      width: 25%;
+    }
     li {
-      margin: 0.8rem 0;
+      margin: 1.2rem 0;
     }
   }
   .konsult {
     display: flex;
     justify-content: center;
+    img {
+      margin-right: 0.8rem;
+    }
   }
   .bold {
-    font-family: $GraphikSemibold;
+    font-weight: 900;
   }
 }

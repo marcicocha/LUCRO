@@ -1,5 +1,4 @@
 .header {
-  width: 100%;
 
   nav {
     position: relative;
@@ -21,7 +20,7 @@
   &__links {
     a {
       &:not(:last-child) {
-        margin-right: 2.5rem;
+        margin-right: 3.5rem;
       }
     }
   }

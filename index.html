@@ -19,25 +19,24 @@
     <title>LUCRO</title>
   </head>
   <body>
-    <header class="header position__absolute container">
+    <header class="header container">
       <nav class="flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo"
           ><img src="assets/images/logo.svg" alt="logo"
         /></a>
 
         <div class="header__links hide-for-mobile">
-          <a href="#feature" id="home">Feature</a>
+          <a href="#feature" id="home">How It Works</a>
           <a href="#faq" id="about">FAQs</a>
         </div>
       </nav>
     </header>
-    <section class="container t-c intro fadeInUp">
-      <div>
-        <h1>Money Transfer, Bills Payment and Investments</h1>
-        <p class="intro__description">
-          Lucro is an all-encompassing AI driven investment and advisory
-          platform. We have created a community where members can contribute to
-          help each other to financial freedom.
+    <section class="container flex flex-jc-sb flex-ai-c intro">
+      <div class="intro__content">
+        <h1>Lucro, a marketplace for money exchange</h1>
+        <p class="intro__content__description">
+          A simple peer-peer currency exchange platform. The easiest way to send
+          and receive money from anyone irrespective of location.
         </p>
         <div class="intro__button-container">
           <button class="button">
@@ -65,101 +64,139 @@
             </div>
           </button>
         </div>
-        <div class="intro__image_container">
-          <div>
-            <img
-              src="assets/images/intro-image.png"
-              alt="hand holding phone and card"
-            />
-          </div>
+      </div>
+      <div class="intro__image_container">
+        <div>
+          <img
+            src="assets/images/intro.png"
+            alt="hand holding phone and card"
+          />
         </div>
       </div>
     </section>
     <section id="feature" class="container feature m-t">
-      <h2 class="t-c">Why should you use the Lucro App?</h2>
-      <div class="feat1 feature__section flex flex-jc-sb">
-        <div class="img__container">
-          <img src="assets/images/bill.svg" />
+      <div>
+        <div class="feature__heading">
+          <h2>Why Lucro?</h2>
+          <p>
+            A platform where you can exchange currencies of anykind. <br />
+            With Lucro, your currency exchange is
+          </p>
         </div>
-        <div class="text__container">
-          <div>
-            <h3>Take controls of your bills</h3>
+        <div class="feature__content flex flex-jc-sb">
+          <div class="column-3">
+            <div class="simple">
+              <img src="assets/images/simple.svg" />
+            </div>
+            <h4>Simple</h4>
             <p>
-              Renew your DSTV subscription, Internet, Electricity, Betting and
-              so much more with Lucro smooth bill payment service
+              Make an exchange with anybody, anywhere at any time of the day.
+              Lucro is very easy to understand and operate.
             </p>
+          </div>
+          <div class="column-3">
+            <div class="secure">
+              <img src="assets/images/secure.svg" />
+            </div>
+            <h4>Secured</h4>
             <p>
-              Lucro takes the pain out of bill payment. Avoid the stress of
-              queuing or logging into multiple websites to pay your bills.
+              Lucro guarantees you seamless financial security, have peace of
+              mind knowing that your funds are secure with transparent financial
+              transactions records.
             </p>
+          </div>
+          <div class="column-3">
+            <div class="flexible">
+              <img src="assets/images/flexible.svg" />
+            </div>
+            <h4>Flexible</h4>
+            <p>
+              Create an offer and bid with your preferred exchange rate. At
+              Lucro, we offer you the flexibility to determine the exchange rate
+              best for you so in other words you control your exchange rate
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="feat2 feature__section">
+        <div class="feature__heading">
+          <h2 class="t-c">How does Lucro works?</h2>
+          <p class="t-c">Learn how to interchange money</p>
+        </div>
+        <div class="flex flex-jc-sb">
+          <div class="img__container">
+            <div>
+              <img src="assets/images/lucrow.png" />
+            </div>
+          </div>
+          <div class="text__container">
             <ul class="ul">
-              <li>Create an account</li>
-              <li>Select service type and biller</li>
-              <li>Make Payment</li>
+              <li>
+                <h4>Register</h4>
+                <p>Create an account for free using only your email address</p>
+              </li>
+              <li>
+                <h4>Create an offer</h4>
+                <p>
+                  Create an offer with your own preferred exchange rate and
+                  currency.
+                </p>
+              </li>
+              <li>
+                <h4>Receive bid</h4>
+                <p>
+                  Receive bids from other lucro users and choose anyone you are
+                  comfortable with.
+                </p>
+              </li>
+              <li>
+                <h4>Sit back and relax</h4>
+                <p>
+                  Give us the right information to make your exchange a success,
+                  include bank details and you’re set to go.
+                </p>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-
-      <div class="feat2 feature__section flex flex-jc-sb">
-        <div class="img__container lucrow-image">
-          <img src="assets/images/lucrow.svg" />
-          <!-- <div>
-            <img src="assets/images/lucrow-phone-1.svg" />
-            <img src="assets/images/lucrow-phone-2.svg" />
-            <img src="assets/images/lucrow-phone-3.svg" />
-          </div> -->
-        </div>
-        <div class="text__container">
-          <h3>Lucrow</h3>
-          <p>
-            The simple peer - peer currency exchange. The new way to send and
-            receive money between Canada and Nigeria
-          </p>
-          <ul class="ul">
-            <li>
-              <h4>Create or Choose Offer</h4>
-              <p>
-                Create an offer with your own rate or choose an offer on the
-                marketplace.
-              </p>
-            </li>
-            <li>
-              <h4>Accept Offer</h4>
-              <p>Have your offer accepted by another user on Lucrow.</p>
-            </li>
-            <li>
-              <h4>Make Payment</h4>
-              <p>
-                Enter the bank details of your Recipient and pay for your
-                transfer securely by Bank Transfer; with payments held in Escrow
-                securely by Lucrow.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <div class="feat3 feature__section flex flex-jc-sb">
         <div class="img__container">
-          <img src="assets/images/invest.svg" />
+          <img src="assets/images/play-icon.svg" alt="play-icon" />
         </div>
-        <div class="text__container">
-          <div>
-            <h3>Get Suggestions on what stock to invest in</h3>
-            <p>
-              We give you suggestions on stocks you can invest in based on your
-              recent expenses and portfolio.
-            </p>
-            <ul class="ul">
-              <li>We don’t help you invest, we only give you suggestions</li>
-              <li>
-                You don’t invest in our platform, we link you up with trusted
-                third-party apps
-              </li>
-              <li>We are not responsible for your loss</li>
-            </ul>
-          </div>
+      </div>
+    </section>
+    <section class="container download">
+      <div>
+        <h3>
+          Lucro is making both local and international currency exchange fast
+          and easy
+        </h3>
+        <div class="download__button-container">
+          <button class="button">
+            <div>
+              <span
+                ><img src="assets/images/apple.svg" alt="apple-image"
+              /></span>
+              <span>
+                <small>Download on the</small>
+                <p>App Store</p>
+              </span>
+            </div>
+          </button>
+          <button class="button">
+            <div>
+              <span
+                ><img
+                  src="assets/images/google-play.svg"
+                  alt="google-play-store"
+              /></span>
+              <span>
+                <small>GET IT ON</small>
+                <p>Google Play</p>
+              </span>
+            </div>
+          </button>
         </div>
       </div>
     </section>
@@ -237,79 +274,39 @@
         </div>
       </div>
     </section>
-    <section class="container fadeIn">
-      <div class="download">
-        <div class="download__image">
-          <img
-            class="hide-for-desktop"
-            src="assets/images/footer-phone.svg"
-            alt="phone"
-          />
-          <img
-            class="hide-for-mobile"
-            src="assets/images/footer-phone-web.svg"
-            alt="phone"
-          />
-        </div>
-        <div>
-          <h1>Download for free</h1>
-          <h1>Enjoy seamless experience</h1>
-          <div class="download__button-container">
-            <button class="button">
-              <div>
-                <span
-                  ><img src="assets/images/apple.svg" alt="apple-image"
-                /></span>
-                <span>
-                  <small>Download on the</small>
-                  <p>App Store</p>
-                </span>
-              </div>
-            </button>
-            <button class="button">
-              <div>
-                <span
-                  ><img
-                    src="assets/images/google-play.svg"
-                    alt="google-play-store"
-                /></span>
-                <span>
-                  <small>GET IT ON</small>
-                  <p>Google Play</p>
-                </span>
-              </div>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="container footer">
+    <footer class="footer">
       <div class="flex flex-jc-sb footer__container">
-        <div class="footer__image">
-          <img src="assets/images/footer-logo.svg" />
-        </div>
-        <div class="flex flex-jc-sb footer__text">
-          <ul>
-            <li class="bold">Quick Links</li>
-            <li>Features</li>
-            <li>Privacy and Terms</li>
-            <li>FAQs</li>
-          </ul>
-          <ul>
-            <li class="bold">Download</li>
-            <li>Android</li>
-            <li>iOS</li>
-          </ul>
-          <ul>
-            <li class="bold">Help</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-          </ul>
-        </div>
+        <ul>
+          <li class="bold">Quick Links</li>
+          <li>How it works</li>
+          <li>Privacy and Terms</li>
+          <li>FAQs</li>
+          <li>Join Community</li>
+          <li>Blog</li>
+        </ul>
+        <ul>
+          <li class="bold">Download</li>
+          <li>Android</li>
+          <li>iOS</li>
+        </ul>
+        <ul>
+          <li class="bold">Socials</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+        </ul>
+        <ul>
+          <li class="bold">Contact Information</li>
+          <li>Nigeria 10, Karimu Ikotun, close, Sabo, Yaba, Lagos,Nigeria</li>
+          <li>Canada 3887 RUE ETHEL, VERDUN, QUEBEC, CANADA, H4G1S2</li>
+          <li>Canada 3887 RUE ETHEL, VERDUN, QUEBEC, CANADA, H4G1S2</li>
+          <li>info@lucrosupport.com</li>
+          <li>081678678987</li>
+        </ul>
       </div>
       <div class="konsult">
-        <img src="assets/images/360Konsult.svg" alt="380Konsult-logo" />
-        <p>Powered by 386Konsult</p>
+        <img src="assets/images/codegarrage.svg" alt="codegarrage-logo" />
+        <p>Powered by CodegarrageAfrica</p>
       </div>
     </footer>
     <script src="app/js/index.js"></script>

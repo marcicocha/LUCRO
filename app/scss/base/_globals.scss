@@ -63,10 +63,10 @@ a:hover {
 }
 .container {
   @include breakpoint-down(medium) {
-    padding: $padding-mobile;
+    margin: $padding-mobile;
   }
   @include breakpoint-up(large) {
-    padding: $padding-web;
+    margin: $padding-web;
   }
 }
 section {
@@ -125,37 +125,7 @@ p {
     line-height: 2rem;
   }
 }
-.ul {
-  list-style-type: none;
-  padding-left: 0;
-  li {
-    position: relative;
-    padding-left: 2rem;
-    line-height: 2rem;
-    font-size: 0.875rem;
-    font-weight: 600;
 
-    font-family: $GraphikLight;
-
-    @include breakpoint-up(large) {
-      font-size: $font-regular;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 5px;
-      width: 0.875rem;
-      height: 0.875rem;
-      background-image: url("../../../assets/images/list-style.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      @include breakpoint-up(large) {
-        font-size: $font-regular;
-      }
-    }
-  }
-}
 .m-t {
   margin-top: 2.5rem;
   @include breakpoint-up(large) {
