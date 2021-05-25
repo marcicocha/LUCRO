@@ -7,7 +7,7 @@
     }
     &__description {
       color: $dark-grey;
-      font-family: $GraphikLight;
+      font-family: "Avenir", sans-serif;
       font-weight: 400;
       @include breakpoint-up(large) {
         margin-bottom: 1.5rem;
