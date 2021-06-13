@@ -734,6 +734,11 @@ p {
   font-weight: 900;
 }
 
+.footer .codegarage-footer {
+  color: white;
+  font-family: "Avenir", sans-serif;
+}
+
 .download {
   background: #741ca4;
   background-size: cover;
