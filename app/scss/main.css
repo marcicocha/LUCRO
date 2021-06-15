@@ -707,9 +707,15 @@ p {
   margin-bottom: 2rem;
 }
 
+.footer ul li a {
+  color: white;
+  font-family: "Avenir", sans-serif;
+}
+
 @media (min-width: 64em) {
   .footer ul {
     width: 25%;
+    font-weight: 400;
   }
 }
 
