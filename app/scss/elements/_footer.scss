@@ -24,6 +24,9 @@
       a {
         color: white;
         font-family: "Avenir", sans-serif;
+        &:hover {
+          color: $purple;
+        }
       }
     }
     @include breakpoint-up(large) {
@@ -47,5 +50,8 @@
   .codegarage-footer {
     color: white;
     font-family: "Avenir", sans-serif;
+    &:hover {
+      color: #d9a528;
+    }
   }
 }

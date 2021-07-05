@@ -17,6 +17,9 @@
     display: flex;
     justify-content: center;
     .button {
+      a {
+        color: white;
+      }
       &:first-child {
         margin-right: 1rem;
         @include breakpoint-up(large) {

@@ -13,7 +13,9 @@
   font-weight: 600;
   transition: 0.4s;
   line-height: 1.5rem;
-
+  &:hover {
+    color: #009b72;
+  }
   @include breakpoint-up(large) {
     font-size: 1.25rem;
     padding-left: 2.5rem;
@@ -35,9 +37,12 @@
     }
   }
 }
-.active::before {
-  top: 10px;
-  background-image: url("../../../assets/images/minus.svg") !important;
+.active {
+  color: #009b72;
+  &::before {
+    top: 10px;
+    background-image: url("../../../assets/images/minus.svg") !important;
+  }
 }
 .panel {
   max-height: 0;

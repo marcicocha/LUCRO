@@ -47,28 +47,35 @@
         </p>
         <div class="intro__button-container">
           <button class="button">
-            <div>
-              <span
-                ><img src="assets/images/apple.svg" alt="apple-image"
-              /></span>
-              <span>
-                <small>Download on the</small>
-                <p>App Store</p>
-              </span>
-            </div>
+            <a href="" target="_blank">
+              <div>
+                <span
+                  ><img src="assets/images/apple.svg" alt="apple-image"
+                /></span>
+                <span>
+                  <small>Download on the</small>
+                  <p>App Store</p>
+                </span>
+              </div>
+            </a>
           </button>
           <button class="button">
-            <div>
-              <span
-                ><img
-                  src="assets/images/google-play.svg"
-                  alt="google-play-store"
-              /></span>
-              <span>
-                <small>GET IT ON</small>
-                <p>Google Play</p>
-              </span>
-            </div>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.techies.lukro"
+              target="_blank"
+            >
+              <div>
+                <span
+                  ><img
+                    src="assets/images/google-play.svg"
+                    alt="google-play-store"
+                /></span>
+                <span>
+                  <small>GET IT ON</small>
+                  <p>Google Play</p>
+                </span>
+              </div>
+            </a>
           </button>
         </div>
       </div>
@@ -169,8 +176,11 @@
         </div>
       </div>
       <div class="feat3 feature__section flex flex-jc-sb">
-        <div class="img__container">
-          <img src="assets/images/play-icon.svg" alt="play-icon" />
+        <div class="img__container" onclick="playPause()">
+          <img src="assets/images/play-icon.svg" alt="play-icon" class="playImage"/>
+          <video id="video" width="100%" height="100%">
+            <source src="assets/video/lucro.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </section>
@@ -182,28 +192,38 @@
         </h3>
         <div class="download__button-container">
           <button class="button">
-            <div>
-              <span
-                ><img src="assets/images/apple.svg" alt="apple-image"
-              /></span>
-              <span>
-                <small>Download on the</small>
-                <p>App Store</p>
-              </span>
-            </div>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.techies.lukro"
+              target="_blank"
+            >
+              <div>
+                <span
+                  ><img src="assets/images/apple.svg" alt="apple-image"
+                /></span>
+                <span>
+                  <small>Download on the</small>
+                  <p>App Store</p>
+                </span>
+              </div>
+            </a>
           </button>
           <button class="button">
-            <div>
-              <span
-                ><img
-                  src="assets/images/google-play.svg"
-                  alt="google-play-store"
-              /></span>
-              <span>
-                <small>GET IT ON</small>
-                <p>Google Play</p>
-              </span>
-            </div>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.techies.lukro"
+              target="_blank"
+            >
+              <div>
+                <span
+                  ><img
+                    src="assets/images/google-play.svg"
+                    alt="google-play-store"
+                /></span>
+                <span>
+                  <small>GET IT ON</small>
+                  <p>Google Play</p>
+                </span>
+              </div>
+            </a>
           </button>
         </div>
       </div>
@@ -334,7 +354,13 @@
         </ul>
         <ul>
           <li class="bold">Download</li>
-          <li>Android</li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.techies.lukro"
+              target="_blank"
+              >Android</a
+            >
+          </li>
           <li>iOS</li>
         </ul>
         <ul>
@@ -362,7 +388,9 @@
           <!-- <li>Nigeria 10, Karimu Ikotun, close, Sabo, Yaba, Lagos,Nigeria</li>
           <li>Canada 3887 RUE ETHEL, VERDUN, QUEBEC, CANADA, H4G1S2</li>
           <li>Canada 3887 RUE ETHEL, VERDUN, QUEBEC, CANADA, H4G1S2</li> -->
-          <li>support@lucrocash.com</li>
+          <li>
+            <a href="mailto: support@lucrocash.com">support@lucrocash.com</a>
+          </li>
           <!-- <li>081678678987</li> -->
         </ul>
       </div>
