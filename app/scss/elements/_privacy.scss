@@ -1,0 +1,15 @@
+.privacy {
+  li {
+    margin-bottom: 2rem;
+    font-family: "Avenir", sans-serif;
+    font-size: 0.875rem;
+    @include breakpoint-up(large) {
+      font-size: $font-regular;
+      line-height: 2rem;
+    }
+  }
+  h2,
+  h4 {
+    color: $purple;
+  }
+}
