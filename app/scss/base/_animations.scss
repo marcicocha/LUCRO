@@ -1,8 +1,31 @@
 .fadeInUp {
-    animation: fadeInUp;
-    animation-duration: 1.5s;
+  animation: fadeInUp;
+  animation-duration: 1.5s;
+}
+.fadeInLeft {
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+}
+.fadeInRight {
+  animation: fadeInRight;
+  animation-duration: 1.5s;
 }
 .fadeIn {
-    animation: fadeIn;
-    animation-duration: 2s;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+.fadeInDown {
+  animation: fadeInDown;
+}
+.a-du-1 {
+  animation-duration: 1s;
+}
+.a-du-1-5 {
+  animation-duration: 1.5s;
+}
+.a-du-2 {
+  animation-duration: 2s;
+}
+.a-du-2-5 {
+  animation-duration: 2.5s;
 }

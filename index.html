@@ -26,7 +26,7 @@
     </title>
   </head>
   <body>
-    <header class="header container">
+    <header class="header container fadeIn">
       <nav class="flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo"
           ><img src="assets/images/logo.svg" alt="logo"
@@ -39,7 +39,7 @@
       </nav>
     </header>
     <section class="container flex flex-jc-sb flex-ai-c intro">
-      <div class="intro__content">
+      <div class="intro__content fadeInLeft">
         <h1>Lucrocash, a marketplace for money exchange</h1>
         <p class="intro__content__description">
           A simple peer-peer currency exchange platform. The easiest way to send
@@ -79,7 +79,7 @@
           </button>
         </div>
       </div>
-      <div class="intro__image_container">
+      <div class="intro__image_container fadeInRight">
         <div>
           <img
             src="assets/images/intro.png"
@@ -98,7 +98,7 @@
           </p>
         </div>
         <div class="feature__content flex flex-jc-sb">
-          <div class="column-3">
+          <div class="column-3 fadeInDown a-du-1">
             <div class="simple">
               <img src="assets/images/simple.svg" />
             </div>
@@ -108,7 +108,7 @@
               Lucrocash is very easy to understand and operate.
             </p>
           </div>
-          <div class="column-3">
+          <div class="column-3 fadeInDown a-du-1-5">
             <div class="secure">
               <img src="assets/images/secure.svg" />
             </div>
@@ -119,7 +119,7 @@
               financial transactions records.
             </p>
           </div>
-          <div class="column-3">
+          <div class="column-3 fadeInDown a-du-2">
             <div class="flexible">
               <img src="assets/images/flexible.svg" />
             </div>
@@ -146,25 +146,25 @@
           </div>
           <div class="text__container">
             <ul class="ul">
-              <li>
+              <li class="fadeInRight a-du-1">
                 <h4>Register</h4>
                 <p>Create an account for free using only your email address</p>
               </li>
-              <li>
+              <li class="fadeInRight a-du-1.5">
                 <h4>Create an offer</h4>
                 <p>
                   Create an offer with your own preferred exchange rate and
                   currency.
                 </p>
               </li>
-              <li>
+              <li class="fadeInRight a-du-1.5">
                 <h4>Receive bid</h4>
                 <p>
                   Receive bids from other lucrocash users and choose anyone you
                   are comfortable with.
                 </p>
               </li>
-              <li>
+              <li class="fadeInRight a-du-2">
                 <h4>Sit back and relax</h4>
                 <p>
                   Give us the right information to make your exchange a success,
@@ -177,7 +177,11 @@
       </div>
       <div class="feat3 feature__section flex flex-jc-sb">
         <div class="img__container" onclick="playPause()">
-          <img src="assets/images/play-icon.svg" alt="play-icon" class="playImage"/>
+          <img
+            src="assets/images/play-icon.svg"
+            alt="play-icon"
+            class="playImage"
+          />
           <video id="video" width="100%" height="100%">
             <source src="assets/video/lucro.mp4" type="video/mp4" />
           </video>
