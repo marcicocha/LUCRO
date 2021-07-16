@@ -328,6 +328,10 @@ p {
   margin-right: 3.5rem;
 }
 
+.header__links a:hover {
+  color: #741ca4;
+}
+
 .button {
   display: block;
   outline: none;

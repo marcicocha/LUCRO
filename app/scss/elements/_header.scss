@@ -1,5 +1,4 @@
 .header {
-
   nav {
     position: relative;
     z-index: 1;
@@ -21,6 +20,9 @@
     a {
       &:not(:last-child) {
         margin-right: 3.5rem;
+      }
+      &:hover {
+        color: $purple;
       }
     }
   }
